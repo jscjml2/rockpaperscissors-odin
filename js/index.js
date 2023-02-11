@@ -38,6 +38,8 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
+    // each iteration of this for loop is one round of the game. here we have a loop set up to run 5 times
+    // signifying 5 rounds.
     for (let i = 0; i < 5; ++i){
         // prompt the user for their choice (rock, paper, or scissors) -- this uses the prompt() function...
         // it will show up as a window in the website. This will be stored into the playerSelection variable.

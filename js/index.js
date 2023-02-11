@@ -32,6 +32,8 @@ function playRound(playerSelection, computerSelection) {
         return "You win! You chose scissors, and the computer chose paper.";
     } else if (playerSelection === "scissors" && computerSelection === "scissors") {
         return "You tied! You chose scissors, and the computer chose scissors.";
+    } else {
+        return "Invalid input.";
     }
 }
 

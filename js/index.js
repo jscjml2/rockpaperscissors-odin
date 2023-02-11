@@ -14,10 +14,6 @@ function playRound(playerSelection, computerSelection) {
     // toLowerCase() on the player's input to make sure that it matches.
     playerSelection = playerSelection.toLowerCase();
 
-    if (playerSelection === null){
-        return "The player canceled the prompt.";
-    }
-
     if (playerSelection === "rock" && computerSelection === "rock") {
         return "You tied! You chose rock, and the computer chose rock.";
     } else if (playerSelection === "rock" && computerSelection === "paper") {
@@ -53,4 +49,5 @@ function game() {
     }
 }
 
+// Call the game function. This starts 5 rounds of rock paper scissors as shown in the functions above.
 game();
